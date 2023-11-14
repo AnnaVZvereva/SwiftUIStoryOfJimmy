@@ -9,6 +9,7 @@ import SwiftUI
 
 struct MainPageViewChapters: View {
     var body: some View {
+
         
         TabView {
             Chapter1View()
@@ -34,6 +35,7 @@ struct MainPageViewChapters: View {
         }
     }
 }
+
 
 
 #Preview {
