@@ -39,10 +39,11 @@ struct Chapter5View: View {
                     Text("Finally he decided to change his life because of his friends Tommy Python and Sarah Ruby.  Family changed his mind a lot. Jimmy Swift started to self-development and he achieved growing from 2.2 version until 5.1 version. He is changing to 6.0 now.He is already popular and loved many developers.Sometimes on Sunday Jimmy goes out with Sarah Ruby and Tommy Python even they don’t have too much free time.They share ideas about everything: problems and solutions evolution of coding and etc.Jimmy believes he can be the most used programming language in the world by 2050.")
                 }
                 
+
             }
         }
     }
-}
+
 
     
 
