@@ -130,8 +130,8 @@
 				2499D2C02B064E5300D30E35 /* lookLeft.swift */,
 				2499D2C22B064E6200D30E35 /* lookRight.swift */,
 				2453600C2B06E75F00E51B1B /* lookRight2.swift */,
-				2499D2C82B06507200D30E35 /* hydrationBreak.swift */,
 				2453600E2B06EC4B00E51B1B /* rubyHouse.swift */,
+				2499D2C82B06507200D30E35 /* hydrationBreak.swift */,
 				245360102B06F35500E51B1B /* yesHome.swift */,
 				245360122B06F36A00E51B1B /* noHome.swift */,
 			);

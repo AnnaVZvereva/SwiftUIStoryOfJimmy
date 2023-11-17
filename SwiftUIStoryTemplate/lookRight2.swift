@@ -1,9 +1,9 @@
-//
-//  lookRight2.swift
+
+// lookRight2.swift
 //  SwiftUIStoryTemplate
-//
-//  Created by Shaundra Hamilton on 11/16/23.
-//
+
+  //Created by Shaundra Hamilton on 11/16/23.
+
 
 import SwiftUI
 struct lookRight2: View {

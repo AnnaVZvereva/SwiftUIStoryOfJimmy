@@ -1,5 +1,9 @@
 import SwiftUI
 import UIKit
+import FLAnimatedImage
+import SDWebImageSwiftUI
+
+
 /// Call Commands
 let mainCharater = String("Jimmy Swift")
 let friendOneName = String("Tommy Python")
@@ -22,7 +26,9 @@ func friendCall() {
 func departure() {
     print ("With that, he decided to go on his next adventure.")
 }
-
+let min: CGFloat = 0
+let max: CGFloat = 4
+let step: CGFloat = 1
 
 /// Story start
 
@@ -151,8 +157,8 @@ struct Chapter2View: View {
             
         }
     }
+ 
+    #Preview {
+        Chapter2View()
+    }
 
-
-#Preview {
-    Chapter2View()
-}
