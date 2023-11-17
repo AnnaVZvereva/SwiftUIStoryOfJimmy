@@ -73,9 +73,9 @@ struct Chapter2View: View {
                             .resizable()
                             .frame(width: 200, height: 250)
                         //.padding()
-                        Image("4")
+                        Image("Jimmy Swift")
                             .resizable()
-                            .frame(width: 400, height: 400)
+                            .frame(width: 150, height: 150)
                             .padding(-100)
                     }
                     Text("One day, Jimmy decided to go to the park and get some air.")
@@ -162,12 +162,12 @@ struct Chapter2View: View {
         }
 
     }
- 
+
     #Preview {
         Chapter2View()
     }
 
-    }
+ 
 
 
 

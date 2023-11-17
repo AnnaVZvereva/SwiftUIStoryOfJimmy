@@ -4,44 +4,44 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
 
-        NavigationStack{
-            ZStack{
-                VStack{
-                    Text ("The Evolution of Jimmy Swift")
-                        .bold()
-                        .font(.title2)
-                        .padding(.bottom)
-                    
-                    Text ("Authors")
-                        .bold()
-                    Text ("Anna, Dean, Chantelle, Shaundra")
-                        .bold()
-                        .font(.callout)
-                    
-                    Image ("4")
-                        .resizable()
-                        .scaledToFit()
-                        .padding()
-                    NavigationLink(LocalizedStringKey("ChapterOne")) {
-                        Chapter1View()
-                            .bold()
-                        
-                        Image("10")
-                            .resizable()
-                            .scaledToFill()
-                            .ignoresSafeArea()
-                            .opacity(0.7)
-                        
-                    }
-                }
-            }
-        }
-    }
+//        NavigationStack{
+//            ZStack{
+//                VStack{
+//                    Text ("The Evolution of Jimmy Swift")
+//                        .bold()
+//                        .font(.title2)
+//                        .padding(.bottom)
+//                    
+//                    Text ("Authors")
+//                        .bold()
+//                    Text ("Anna, Dean, Chantelle, Shaundra")
+//                        .bold()
+//                        .font(.callout)
+//                    
+//                    Image ("4")
+//                        .resizable()
+//                        .scaledToFit()
+//                        .padding()
+//                    NavigationLink(LocalizedStringKey("ChapterOne")) {
+//                        Chapter1View()
+//                            .bold()
+//                        
+//                        Image("10")
+//                            .resizable()
+//                            .scaledToFill()
+//                            .ignoresSafeArea()
+//                            .opacity(0.7)
+//                        
+//                    }
+//                }
+//            }
+//        }
+//    }
    // #Preview {
  //       ContentView()
  //   }
     
-}
+//}
 
         
         TabView {

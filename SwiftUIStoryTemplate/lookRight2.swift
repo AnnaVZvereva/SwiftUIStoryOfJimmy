@@ -40,12 +40,12 @@ struct lookRight2: View {
                             .padding()
                         
                         HStack (spacing: -300) {
-                            Image("3")
+                            Image("Tommy Python")
                                 .resizable()
-                                .frame(width: 400, height: 400)
-                            Image("4")
+                                .frame(width: 150, height: 150)
+                            Image("Jimmy swift")
                                 .resizable()
-                                .frame(width: 400, height: 400)
+                                .frame(width: 150, height: 150)
                         }
                     }
                     Text("This reply caught \(mainCharater) off guard. ''Why the want to change all of a sudden?'' he asked.")
