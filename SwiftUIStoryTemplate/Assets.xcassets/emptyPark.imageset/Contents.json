@@ -6,11 +6,14 @@
       "scale" : "1x"
     },
     {
+
       "filename" : "emptyPark 1.png",
+
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+
       "filename" : "emptyPark 2.png",
       "idiom" : "universal",
       "scale" : "3x"

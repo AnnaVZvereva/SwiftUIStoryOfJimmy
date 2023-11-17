@@ -1,9 +1,17 @@
+
+
+ // sliderView.swift
+//  SwiftUIStoryTemplate
+
+//  Created by Shaundra Hamilton on 11/16/23.
+
+
 //
 //  sliderView.swift
 //  SwiftUIStoryTemplate
 //
 //  Created by Shaundra Hamilton on 11/16/23.
-//
+
 
 import SwiftUI
 

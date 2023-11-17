@@ -1,3 +1,16 @@
+
+
+// Chapter2pt2.swift
+ // SwiftUIStoryTemplate
+
+ // Created by Shaundra Hamilton on //11/15/23.
+
+
+//@State var value: CGFloat = 10
+//let min: CGFloat = 0
+//let max: CGFloat = 4
+//let step: CGFloat = 1
+
 //
 //  Chapter2pt2.swift
 //  SwiftUIStoryTemplate
@@ -87,6 +100,40 @@ struct Chapter2pt2: View {
         }
     }
 }
+
+/// MISC CODE
+/// struct sliderView: View {
+
+var body: some View {
+    @State var value: CGFloat = 10
+    return VStack {
+        Text("How many bottles should he get?")
+            .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+            .frame(width: 320)
+            .multilineTextAlignment(.center)
+            .foregroundColor(.teal)
+            .italic()
+        Slider(
+            value: $value,
+            in: min...max,
+            step: step,
+            minimumValueLabel: Text(formated(value: min)),
+            maximumValueLabel: Text(formated(value: max)),
+            label: { })
+        .foregroundStyle(Color(.teal))
+        .accentColor(.orange)
+        .font(.headline)
+
+        .padding()
+    }
+    .padding()
+}
+
+func formated(value: CGFloat) -> String {
+    return String(format: "%.0f", value)
+}
+
+
 
 #Preview {
     Chapter2pt2()
