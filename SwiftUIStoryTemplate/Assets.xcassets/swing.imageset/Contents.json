@@ -6,10 +6,16 @@
       "scale" : "1x"
     },
     {
+
+      "filename" : "swing 1.png",
+
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+
+      "filename" : "swing 2.png",
+
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -1,15 +1,24 @@
 
+
 // Chapter2pt2.swift
  // SwiftUIStoryTemplate
 
  // Created by Shaundra Hamilton on //11/15/23.
 
 
-import SwiftUI
 //@State var value: CGFloat = 10
 //let min: CGFloat = 0
 //let max: CGFloat = 4
 //let step: CGFloat = 1
+
+//
+//  Chapter2pt2.swift
+//  SwiftUIStoryTemplate
+//
+//  Created by Shaundra Hamilton on 11/15/23.
+//
+
+import SwiftUI
 
 struct Chapter2pt2: View {
     var body: some View {
@@ -91,6 +100,7 @@ struct Chapter2pt2: View {
         }
     }
 }
+
 /// MISC CODE
 /// struct sliderView: View {
 

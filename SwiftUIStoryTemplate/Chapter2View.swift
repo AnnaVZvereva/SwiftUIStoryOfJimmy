@@ -1,7 +1,9 @@
 import SwiftUI
 import UIKit
+
 import FLAnimatedImage
 import SDWebImageSwiftUI
+
 
 
 /// Call Commands
@@ -26,9 +28,11 @@ func friendCall() {
 func departure() {
     print ("With that, he decided to go on his next adventure.")
 }
+
 let min: CGFloat = 0
 let max: CGFloat = 4
 let step: CGFloat = 1
+
 
 /// Story start
 
@@ -156,9 +160,14 @@ struct Chapter2View: View {
             }
             
         }
+
     }
  
     #Preview {
         Chapter2View()
     }
+
+    }
+
+
 
