@@ -69,12 +69,9 @@ struct Chapter2View: View {
                             .padding(-100)
                     }
                     Text("One day, Jimmy decided to go to the park and get some air.")
-                    //  .padding()
-                    //    .multilineTextAlignment(.center)
                         .frame(width: 320)
                     Text("While sitting by himself on the swingset, he thought he'd look around to find someone to talk to.")
                         .padding(-5)
-                       // .multilineTextAlignment(.center)
                         .frame(width: 320)
                     Text("How high is \(mainCharater) going on the swing?")
                         .font(.title3)
