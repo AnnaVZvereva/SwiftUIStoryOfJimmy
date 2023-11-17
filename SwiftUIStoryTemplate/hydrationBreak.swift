@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import FLAnimatedImage
 import UIKit
 import SDWebImageSwiftUI
 

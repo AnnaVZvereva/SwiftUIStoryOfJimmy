@@ -45,7 +45,7 @@ struct Chapter2View: View {
                     .blur(radius: /*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
                 VStack{
                     NavigationLink(LocalizedStringKey("Home")) {
-                        MainPageViewChapters()
+                        ContentView()
                             .bold()
                     }
                     .foregroundColor(.blue)

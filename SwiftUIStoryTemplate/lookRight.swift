@@ -33,12 +33,12 @@ struct lookRight: View {
                         .frame(width: 300, height: 200)
                         
                         HStack (spacing: -300) {
-                            Image("3")
+                            Image("Tommy Python")
                                 .resizable()
-                                .frame(width: 400, height: 400)
-                            Image("4")
+                                .frame(width: 150, height: 150)
+                            Image("Jimmy Swift")
                                 .resizable()
-                                .frame(width: 400, height: 400)
+                                .frame(width: 150, height: 150)
                         }
                         }
                     Text("\(mainCharater) rushed to his friend, \(friendOneName), who looked as though he was in a hurry")

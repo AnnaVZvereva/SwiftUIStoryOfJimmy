@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01ADA51A2B07A2AC007FF4E6 /* hydrationBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ADA50B2B07A2AC007FF4E6 /* hydrationBreak.swift */; };
+		01ADA51B2B07A2AC007FF4E6 /* talking.gif in Resources */ = {isa = PBXBuildFile; fileRef = 01ADA50C2B07A2AC007FF4E6 /* talking.gif */; };
+		01ADA51C2B07A2AC007FF4E6 /* Chapter2pt2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ADA50D2B07A2AC007FF4E6 /* Chapter2pt2.swift */; };
+		01ADA51D2B07A2AC007FF4E6 /* GIFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ADA50E2B07A2AC007FF4E6 /* GIFView.swift */; };
+		01ADA51E2B07A2AC007FF4E6 /* dontLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ADA50F2B07A2AC007FF4E6 /* dontLook.swift */; };
+		01ADA5202B07A2AC007FF4E6 /* sliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ADA5112B07A2AC007FF4E6 /* sliderView.swift */; };
+		01ADA5212B07A2AC007FF4E6 /* lookRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ADA5122B07A2AC007FF4E6 /* lookRight.swift */; };
+		01ADA5232B07A2AC007FF4E6 /* lookLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ADA5142B07A2AC007FF4E6 /* lookLeft.swift */; };
+		01ADA5242B07A2AC007FF4E6 /* lookRight2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ADA5152B07A2AC007FF4E6 /* lookRight2.swift */; };
+		01ADA5252B07A2AC007FF4E6 /* rubyHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ADA5162B07A2AC007FF4E6 /* rubyHouse.swift */; };
+		01ADA5262B07A2AC007FF4E6 /* yesHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ADA5172B07A2AC007FF4E6 /* yesHome.swift */; };
+		01ADA5272B07A2AC007FF4E6 /* noHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ADA5182B07A2AC007FF4E6 /* noHome.swift */; };
+		01ADA5282B07A2AC007FF4E6 /* lemonade3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 01ADA5192B07A2AC007FF4E6 /* lemonade3.gif */; };
+		01ADA52B2B07A3D5007FF4E6 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 01ADA52A2B07A3D5007FF4E6 /* SDWebImageSwiftUI */; };
+		01ADA52F2B07ACDB007FF4E6 /* Chapter2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ADA52E2B07ACDB007FF4E6 /* Chapter2View.swift */; };
 		01F54F8B2B066D7900C60845 /* AboutTommyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F54F882B066D7900C60845 /* AboutTommyView.swift */; };
 		01F54F8C2B066D7900C60845 /* AboutSaraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F54F892B066D7900C60845 /* AboutSaraView.swift */; };
 		01F54F8D2B066D7900C60845 /* AboutJimmyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F54F8A2B066D7900C60845 /* AboutJimmyView.swift */; };
@@ -16,7 +31,6 @@
 		5DE6F6742AFADF08004ABB4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE6F6732AFADF08004ABB4F /* Assets.xcassets */; };
 		5DE6F6772AFADF08004ABB4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE6F6762AFADF08004ABB4F /* Preview Assets.xcassets */; };
 		5DE6F67E2AFAE3DF004ABB4F /* Chapter1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F67D2AFAE3DF004ABB4F /* Chapter1View.swift */; };
-		5DE6F6802AFAE3E6004ABB4F /* Chapter2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F67F2AFAE3E6004ABB4F /* Chapter2View.swift */; };
 		5DE6F6822AFAE3EA004ABB4F /* Chapter3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */; };
 		5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */; };
 		5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */; };
@@ -24,6 +38,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01ADA50B2B07A2AC007FF4E6 /* hydrationBreak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hydrationBreak.swift; sourceTree = "<group>"; };
+		01ADA50C2B07A2AC007FF4E6 /* talking.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = talking.gif; sourceTree = "<group>"; };
+		01ADA50D2B07A2AC007FF4E6 /* Chapter2pt2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter2pt2.swift; sourceTree = "<group>"; };
+		01ADA50E2B07A2AC007FF4E6 /* GIFView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFView.swift; sourceTree = "<group>"; };
+		01ADA50F2B07A2AC007FF4E6 /* dontLook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dontLook.swift; sourceTree = "<group>"; };
+		01ADA5112B07A2AC007FF4E6 /* sliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sliderView.swift; sourceTree = "<group>"; };
+		01ADA5122B07A2AC007FF4E6 /* lookRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lookRight.swift; sourceTree = "<group>"; };
+		01ADA5142B07A2AC007FF4E6 /* lookLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lookLeft.swift; sourceTree = "<group>"; };
+		01ADA5152B07A2AC007FF4E6 /* lookRight2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lookRight2.swift; sourceTree = "<group>"; };
+		01ADA5162B07A2AC007FF4E6 /* rubyHouse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rubyHouse.swift; sourceTree = "<group>"; };
+		01ADA5172B07A2AC007FF4E6 /* yesHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yesHome.swift; sourceTree = "<group>"; };
+		01ADA5182B07A2AC007FF4E6 /* noHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = noHome.swift; sourceTree = "<group>"; };
+		01ADA5192B07A2AC007FF4E6 /* lemonade3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lemonade3.gif; sourceTree = "<group>"; };
+		01ADA52E2B07ACDB007FF4E6 /* Chapter2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter2View.swift; sourceTree = "<group>"; };
 		01F54F882B066D7900C60845 /* AboutTommyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutTommyView.swift; sourceTree = "<group>"; };
 		01F54F892B066D7900C60845 /* AboutSaraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutSaraView.swift; sourceTree = "<group>"; };
 		01F54F8A2B066D7900C60845 /* AboutJimmyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutJimmyView.swift; sourceTree = "<group>"; };
@@ -34,7 +62,6 @@
 		5DE6F6732AFADF08004ABB4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DE6F6762AFADF08004ABB4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5DE6F67D2AFAE3DF004ABB4F /* Chapter1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter1View.swift; sourceTree = "<group>"; };
-		5DE6F67F2AFAE3E6004ABB4F /* Chapter2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2View.swift; sourceTree = "<group>"; };
 		5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
 		5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
 		5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5View.swift; sourceTree = "<group>"; };
@@ -46,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01ADA52B2B07A3D5007FF4E6 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +132,20 @@
 		5DE6F6882AFAE482004ABB4F /* Chapter2 */ = {
 			isa = PBXGroup;
 			children = (
-				5DE6F67F2AFAE3E6004ABB4F /* Chapter2View.swift */,
+				01ADA50D2B07A2AC007FF4E6 /* Chapter2pt2.swift */,
+				01ADA52E2B07ACDB007FF4E6 /* Chapter2View.swift */,
+				01ADA50F2B07A2AC007FF4E6 /* dontLook.swift */,
+				01ADA50E2B07A2AC007FF4E6 /* GIFView.swift */,
+				01ADA50B2B07A2AC007FF4E6 /* hydrationBreak.swift */,
+				01ADA5192B07A2AC007FF4E6 /* lemonade3.gif */,
+				01ADA5142B07A2AC007FF4E6 /* lookLeft.swift */,
+				01ADA5122B07A2AC007FF4E6 /* lookRight.swift */,
+				01ADA5152B07A2AC007FF4E6 /* lookRight2.swift */,
+				01ADA5182B07A2AC007FF4E6 /* noHome.swift */,
+				01ADA5162B07A2AC007FF4E6 /* rubyHouse.swift */,
+				01ADA5112B07A2AC007FF4E6 /* sliderView.swift */,
+				01ADA50C2B07A2AC007FF4E6 /* talking.gif */,
+				01ADA5172B07A2AC007FF4E6 /* yesHome.swift */,
 			);
 			name = Chapter2;
 			sourceTree = "<group>";
@@ -153,6 +194,9 @@
 			dependencies = (
 			);
 			name = SwiftUIStoryTemplate;
+			packageProductDependencies = (
+				01ADA52A2B07A3D5007FF4E6 /* SDWebImageSwiftUI */,
+			);
 			productName = SwiftUIStoryTemplate;
 			productReference = 5DE6F66C2AFADF05004ABB4F /* SwiftUIStoryTemplate.app */;
 			productType = "com.apple.product-type.application";
@@ -181,6 +225,9 @@
 				Base,
 			);
 			mainGroup = 5DE6F6632AFADF05004ABB4F;
+			packageReferences = (
+				01ADA5292B07A3D5007FF4E6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 5DE6F66D2AFADF05004ABB4F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -195,6 +242,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01ADA51B2B07A2AC007FF4E6 /* talking.gif in Resources */,
+				01ADA5282B07A2AC007FF4E6 /* lemonade3.gif in Resources */,
 				5DE6F6772AFADF08004ABB4F /* Preview Assets.xcassets in Resources */,
 				5DE6F6742AFADF08004ABB4F /* Assets.xcassets in Resources */,
 			);
@@ -208,14 +257,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DE6F6822AFAE3EA004ABB4F /* Chapter3View.swift in Sources */,
+				01ADA51D2B07A2AC007FF4E6 /* GIFView.swift in Sources */,
+				01ADA5232B07A2AC007FF4E6 /* lookLeft.swift in Sources */,
 				01F54F8B2B066D7900C60845 /* AboutTommyView.swift in Sources */,
+				01ADA51E2B07A2AC007FF4E6 /* dontLook.swift in Sources */,
 				01F54F8F2B06778800C60845 /* TheEndView.swift in Sources */,
 				5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */,
 				01F54F8C2B066D7900C60845 /* AboutSaraView.swift in Sources */,
+				01ADA5202B07A2AC007FF4E6 /* sliderView.swift in Sources */,
+				01ADA51C2B07A2AC007FF4E6 /* Chapter2pt2.swift in Sources */,
 				5DE6F6722AFADF05004ABB4F /* ContentView.swift in Sources */,
+				01ADA5252B07A2AC007FF4E6 /* rubyHouse.swift in Sources */,
+				01ADA51A2B07A2AC007FF4E6 /* hydrationBreak.swift in Sources */,
+				01ADA5212B07A2AC007FF4E6 /* lookRight.swift in Sources */,
 				01F54F8D2B066D7900C60845 /* AboutJimmyView.swift in Sources */,
-				5DE6F6802AFAE3E6004ABB4F /* Chapter2View.swift in Sources */,
+				01ADA5242B07A2AC007FF4E6 /* lookRight2.swift in Sources */,
+				01ADA52F2B07ACDB007FF4E6 /* Chapter2View.swift in Sources */,
+				01ADA5262B07A2AC007FF4E6 /* yesHome.swift in Sources */,
 				B989441E2B02840B006432F4 /* MainPageViewChapters.swift in Sources */,
+				01ADA5272B07A2AC007FF4E6 /* noHome.swift in Sources */,
 				5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */,
 				5DE6F67E2AFAE3DF004ABB4F /* Chapter1View.swift in Sources */,
 				5DE6F6702AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift in Sources */,
@@ -424,6 +484,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		01ADA5292B07A3D5007FF4E6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		01ADA52A2B07A3D5007FF4E6 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01ADA5292B07A3D5007FF4E6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5DE6F6642AFADF05004ABB4F /* Project object */;
 }
