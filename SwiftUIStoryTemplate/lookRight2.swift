@@ -33,7 +33,7 @@ struct lookRight2: View {
                         .foregroundColor(.black)
                         .font(.headline)
                         .multilineTextAlignment(.center)
-                    ZStack{
+                    ZStack {
                         Image("emptyPark")
                             .resizable()
                             .frame(width: 300, height: 200)
