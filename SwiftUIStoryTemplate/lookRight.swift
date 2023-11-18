@@ -22,7 +22,7 @@ struct lookRight: View {
                     .frame(width: 350, height: 730)
                     .cornerRadius(30)
                     .blur(radius: /*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
-                VStack(spacing: 0){
+                VStack(spacing: 0) {
                     Text ("Chapter Two(2):\n Friends, How Many Of Us Have Them?")
                         .foregroundColor(.black)
                         .font(.headline)
